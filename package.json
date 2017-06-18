@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/clusteratlas/clusteratlas.github.io#readme",
   "dependencies": {
-    "ladderized": "^2.0.8"
+    "ladderized": "^4.0.1"
   }
 }
