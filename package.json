@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/clusteratlas/clusteratlas.github.io/issues"
   },
-  "homepage": "https://github.com/clusteratlas/clusteratlas.github.io#readme"
+  "homepage": "https://github.com/clusteratlas/clusteratlas.github.io#readme",
+  "dependencies": {
+    "ladderized": "^2.0.8"
+  }
 }
