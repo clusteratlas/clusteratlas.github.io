@@ -9,24 +9,50 @@
 
 <!-- NANOBAR -->
 <script src="https://unpkg.com/nanobar@0.4.2/nanobar.min.js"></script>
+<script>
+	var options = {
+		classname: 'nanobar',
+		id: 'nanobar',
+		target: document.body
+	};
 
+	var nanobar = new Nanobar(options);
+	nanobar.go( (100/7) * 1 );
+</script>
 <!-- RSVP -->
 <script src="https://unpkg.com/rsvp@3.5.0/dist/rsvp.min.js"></script>
-
+<script>
+	nanobar.go( (100/7) * 2 );
+</script>
 <!-- EJS -->
 <script src="https://unpkg.com/ejs@2.5.6/ejs.min.js"></script>
+<script>
+	nanobar.go( (100/7) * 3 );
+</script>
 
 <!-- ASYNC -->
 <script src="https://unpkg.com/async@2.4.1/dist/async.min.js"></script>
+<script>
+	nanobar.go( (100/7) * 4 );
+</script>
 
 <!-- LODASH -->
 <script src="https://unpkg.com/lodash@4.17.4/lodash.min.js"></script>
+<script>
+	nanobar.go( (100/7) * 5 );
+</script>
 
 <!-- JQUERY -->
 <script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
+<script>
+	nanobar.go( (100/7) * 6 );
+</script>
 
 <!-- MATERIALIZE -->
 <script src="https://unpkg.com/materialize-css@0.99.0/dist/js/materialize.min.js"></script>
+<script>
+	nanobar.go( 100 );
+</script>
 
 </body>
 </html>
