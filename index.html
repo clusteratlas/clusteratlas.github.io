@@ -2,6 +2,12 @@
 <html>
 <head>
 	<title>Hello!</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
 	<!-- MATERIALIZE -->
 	<link rel="stylesheet" href="https://unpkg.com/materialize-css@0.99.0/dist/css/materialize.min.css">
 </head>
@@ -24,32 +30,33 @@
 <script>
 	nanobar.go( (100/7) * 2 );
 </script>
-<!-- EJS -->
-<script src="https://unpkg.com/ejs@2.5.6/ejs.min.js"></script>
-<script>
-	nanobar.go( (100/7) * 3 );
-</script>
 
 <!-- ASYNC -->
 <script src="https://unpkg.com/async@2.4.1/dist/async.min.js"></script>
 <script>
-	nanobar.go( (100/7) * 4 );
+	nanobar.go( (100/7) * 3 );
 </script>
 
 <!-- LODASH -->
 <script src="https://unpkg.com/lodash@4.17.4/lodash.min.js"></script>
 <script>
-	nanobar.go( (100/7) * 5 );
+	nanobar.go( (100/7) * 4 );
 </script>
 
 <!-- JQUERY -->
 <script src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js"></script>
 <script>
-	nanobar.go( (100/7) * 6 );
+	nanobar.go( (100/7) * 5 );
 </script>
 
 <!-- MATERIALIZE -->
 <script src="https://unpkg.com/materialize-css@0.99.0/dist/js/materialize.min.js"></script>
+<script>
+	nanobar.go( (100/7) * 6 );
+</script>
+
+<!-- MATERIALIZE -->
+<script src="./index.js"></script>
 <script>
 	nanobar.go( 100 );
 </script>
