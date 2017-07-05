@@ -30,8 +30,16 @@
 
 
 $(document).ready(function() {
-	// setTimeout(function(){
-		$('#content').show();
-	// }, 500);
-	// test
+	// $(".dropdown-button").dropdown();
+	$(".button-collapse").sideNav();
+	$('#nanobar').fadeOut(function () {
+		$('#content').fadeIn();
+		$('.parallax').parallax();
+	});
+	$('.link').click(function(){
+		var self = this;
+		$("#content").fadeOut(function () {
+			window.location.href = $(self).attr('to');
+		});
+	});
 });

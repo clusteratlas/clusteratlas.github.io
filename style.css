@@ -1,36 +1,56 @@
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://unpkg.com/material-design-icons@3.0.1/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(https://unpkg.com/material-design-icons@3.0.1/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://unpkg.com/material-design-icons@3.0.1/iconfont/MaterialIcons-Regular.woff) format('woff'),
-    url(https://unpkg.com/material-design-icons@3.0.1/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+.brand-logo, .brand-name {
+	font-family: 'Montserrat', sans-serif
 }
 
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+.parallaxy{
+	opacity: 0.6;
+	filter: grayscale(100%);
+}
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
+.parallax:after {
+    content:'';
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: #1e90ff;
+    opacity: 0.8;
+}
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
+.parallax-container {
+  min-height: 360px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+	width: 100%;
+}
 
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.shadow1{
+    text-shadow: 2px 2px 2px #8b8989;
+} 
+.shadow2 {
+    text-shadow: 2px 2px 2px #8b8989;
+} 
+
+.valign-center {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
 }
