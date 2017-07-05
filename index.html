@@ -9,9 +9,27 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 	<!-- MATERIALIZE -->
-	<link rel="stylesheet" href="https://unpkg.com/materialize-css@0.99.0/dist/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/materialize-css@0.99.0/dist/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
+<div id="content" hidden>
+    <nav>
+        <div class="nav-wrapper grey darken-3">
+            <a href="#!" class="brand-logo  pink-text text-lighten-5">&nbsp;PagePlex</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="mobile.html" target="_blank">Docs</a></li>
+                <li><a class="waves-effect waves-light btn green">SAVE <i class="material-icons right">save</i></a></li>
+                <li><a class="waves-effect waves-light btn pink">BUILD <i class="material-icons right">build</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="mobile.html" target="_blank">Docs</a></li>
+            </ul>
+        </div>
+    </nav>
+should be hidden
+</div>
 
 <!-- NANOBAR -->
 <script src="https://unpkg.com/nanobar@0.4.2/nanobar.min.js"></script>

@@ -30,5 +30,7 @@
 
 
 $(document).ready(function() {
-	
+	// setTimeout(function(){
+		$('#content').show();
+	// }, 500);
 });
